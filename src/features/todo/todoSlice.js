@@ -20,7 +20,7 @@ export const todoSlice = createSlice({
         }
     }
 })
-
+// We can add or export more functions as needed
 export const { addTodo, removeTodo } = todoSlice.actions;
 
 export default todoSlice.reducer;
